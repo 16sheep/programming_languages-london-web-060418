@@ -11,7 +11,7 @@ def reformat_languages(languages)
     language_hash.each { |language, type_hash|
       if new_hash.key?(language) == false
         new_hash[langugage] => type_hash
-        type_hash [style]
+        type_hash[:style] => style
       
       print "new_hashlanguage #{new_hash[language]} \n"
     }
